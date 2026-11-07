@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+  scrollbar-width: none;
+}
+.frog-icon {
+  width: 500px;
+  image-rendering: pixelated;
+}
+.frog-icon:active {
+  content: url("./assets/frog2.png");
+}
+body {
+  margin: 0;
+  background-color: #edda5e;
+}
+.else {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.con {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.info {
+  background-color: #71951e;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.template {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  background-color: #f4be38;
+  box-shadow: 5px 5px 0px black;
+}
+button {
+  margin-top: 0.5em;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid black;
+  background-color: #eee39c;
+}
+footer {
+  text-align: center;
+}
